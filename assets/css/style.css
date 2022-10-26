@@ -402,24 +402,37 @@ section {
   background-color: #149ddd;
 }
 
-#skillImgs img {
+.skillImage {
   height: 60px;
   width: 60px;
   padding: 5px;
   padding-top: 0px;
 }
 
-#skillImgs div {
+#skillImgs .col-lg-6 {
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 #skillImgs h6 {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
-  margin-bottom: 20px;
   color: #050d18;
+}
+
+.skillsheader h6 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: #050d18;
+}
+
+.skillsheader img {
+  float: left;
+  height: 30px;
+  margin-right: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -481,6 +494,13 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
+}
+
+.resumelogo {
+  line-height: 18px;
+  margin-bottom: 10px;
+  height: 18px;
+  float: left;
 }
 
 /*--------------------------------------------------------------
